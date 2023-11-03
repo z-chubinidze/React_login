@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mein-box{
+   background-image: url(./back-image-2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+.inputs{
+    height: 60px;
+    border-radius: 0;
+}
+::placeholder{
+    color:rgb(236, 133, 15) !important;
+}
+form{
+    width:40% !important;
+    background-color: black !important;
+    opacity: .8;
+    
+}
+.h1{
+    color: rgb(236, 133, 15) !important;
+}
+.btn-success{
+    height: 60px;
+    background-color: rgb(231, 130, 14) ;
+    border:none;
+    border-radius: 0;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+.form-control:focus {
+    border:2px solid rgb(231, 130, 14);
+    outline: 0;
+    box-shadow: none; 
+}
+.buton-2{
+    height: 150px;
+    width:150px; 
+    border-radius: 50%;
+    font-size: 22px;
+    box-shadow: 0 0 50px 10px gold;
+    background-color: darkorange;
+    color: red;
+    font-weight: 600;
+}
+.buton-2:hover{
+    background-color: rgb(231, 109, 53);
+}
+.buton-2:active {
+    background-color: rgb(231, 109, 53) !important;
+    border:none;
+}
+.dash-box{
+    height: 100vh;
+    background-image: url(./back-image-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
